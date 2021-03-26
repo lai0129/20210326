@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             counter++
         }
         else{
-            counter += 2
+            counter += 1
         }
         txv.text = counter.toString()
     }
